@@ -126,3 +126,6 @@ I think there are 2 possible interpretations to this question:
 ## I'd like to Contribute!
 
 Great! I'll take any help I can get. Please go through the [Development Tenets](/TENETS.md) and feel free to either take on an issue, or make any improvements you'd like and submit a PR!
+
+## Acknowledgement
+Sheeit is heavily inspired by the research done in [Dataspread](https://dataspread.github.io) and [Funcalc](http://www.itu.dk/people/sestoft/funcalc/).
