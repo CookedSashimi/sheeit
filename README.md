@@ -1,5 +1,6 @@
 # Sheeit
-[![Crates.io](https://img.shields.io/crates/v/clap.svg)](https://crates.io/crates/clap)
+
+[![Crates.io](https://img.shields.io/crates/v/sheeit.svg)](https://crates.io/crates/sheeit)
 
 An **_experimental_** blazing-fast spreadsheet engine that supports thousands of concurrent users and millions of cells.
 
@@ -122,8 +123,5 @@ I think there are 2 possible interpretations to this question:
    I also think that this space is up in the air. Maybe taming the complexity and performance of such integration is possible. And I'd be happy to be proven wrong.
 
 ## I'd like to Contribute!
+
 Great! I'll take any help I can get. Please go through the [Development Tenets](/TENETS.md) and feel free to either take on an issue, or make any improvements you'd like and submit a PR!
-
-### Core soundness of architecture over additional feature or performance enhancements
-
-### Extensibility and flexibility in user interactions over infinite scaling
