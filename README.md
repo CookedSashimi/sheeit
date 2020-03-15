@@ -1,6 +1,7 @@
 # Sheeit
 
 [![Crates.io](https://img.shields.io/crates/v/sheeit.svg)](https://crates.io/crates/sheeit)
+[![Docs.rs](https://docs.rs/sheeit/badge.svg)](https://docs.rs/sheeit/)
 
 An **_experimental_** blazing-fast spreadsheet engine that supports thousands of concurrent users and millions of cells.
 
