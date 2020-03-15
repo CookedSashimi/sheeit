@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "sheeit",
+    "sheeit_storage",
+    "sheeit_computation",
+    "sheeit_parser",
+    "benchmarks"
+]
