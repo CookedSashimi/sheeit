@@ -1,10 +1,13 @@
 [package]
 name = "sheeit"
-version = "0.1.0"
+description = "An experimental blazing-fast spreadsheet engine that supports thousands of concurrent users and millions of cells."
+homepage = "https://github.com/wilfredwee/Sheeit"
+repository = "https://github.com/wilfredwee/Sheeit"
+version = "0.1.1"
 authors = ["Wilfred Wee <wilfred.wee@outlook.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+readme = "../README.md"
 
 [dependencies]
 im = { version = "13.0.0", features = ["rayon", "serde"] }
@@ -20,8 +23,8 @@ bimap = "0.4"
 crossbeam = "0.7.3"
 thiserror = "1.0"
 
-sheeit_storage = {path = "../sheeit_storage"}
-sheeit_computation = {path = "../sheeit_computation"}
+sheeit_storage = {path = "../sheeit_storage", version = "0.1.0"}
+sheeit_computation = {path = "../sheeit_computation", version = "0.1.0"}
 
 [dev-dependencies]
 pretty_assertions = "0.6.1"

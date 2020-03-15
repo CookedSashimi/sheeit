@@ -1,4 +1,5 @@
 # Sheeit
+[![Crates.io](https://img.shields.io/crates/v/clap.svg)](https://crates.io/crates/clap)
 
 An **_experimental_** blazing-fast spreadsheet engine that supports thousands of concurrent users and millions of cells.
 

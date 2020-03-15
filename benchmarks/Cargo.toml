@@ -1,10 +1,12 @@
 [package]
 name = "benchmarks"
+description = "Sheeit benchmarks"
+homepage = "https://github.com/wilfredwee/Sheeit"
+repository = "https://github.com/wilfredwee/Sheeit"
 version = "0.1.0"
 authors = ["Wilfred Wee <wilfred.wee@outlook.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
 
 [dependencies]
 sheeit = {path = "../sheeit"}
