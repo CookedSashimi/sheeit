@@ -541,7 +541,7 @@ where
 }
 
 pub fn parse_num_value(raw: &str) -> IResult<&str, Expression> {
-    combinator::map(number::complete::double, |i: f64| Expression::ValueNum(i))(raw)
+    combinator::map(number::complete::double, Expression::ValueNum)(raw)
 }
 
 /// Parse out a valid string sequence within a double-quoted block. i.e. "<valid sequence>"
@@ -774,7 +774,7 @@ pub fn expr_level_val(raw: &str) -> IResult<&str, Expression> {
 pub fn expr_level_percent(raw: &str) -> IResult<&str, Expression> {
     let (rem, res) = expr_level_val(raw)?;
 
-    if rem.starts_with("%") {
+    if rem.starts_with('%') {
         let rem_split = rem.split_at(1).1;
         Ok((rem_split, Expression::Percent(Box::new(res))))
     } else {
